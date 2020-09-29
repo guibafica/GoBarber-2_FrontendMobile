@@ -12,7 +12,7 @@ const AppRoutes: React.FC = () => (
       cardStyle: { backgroundColor: '#312E38' },
     }}
   >
-    <App.Screen name="Dashboard" component={Dashboard} />
+    {/* <App.Screen name="Dashboard" component={Dashboard} /> */}
   </App.Navigator>
 );
 
