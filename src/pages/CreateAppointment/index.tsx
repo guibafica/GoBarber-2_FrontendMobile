@@ -1,11 +1,13 @@
 import React from 'react';
-import { View, Button } from 'react-native';
+import { Button } from 'react-native';
+
+import { Container } from './styles';
 
 const CreateAppointment: React.FC = () => {
   return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+    <Container>
       <Button title="Profile" onPress={() => { }} />
-    </View>
+    </Container>
   );
 };
 
